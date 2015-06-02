@@ -54,6 +54,11 @@
         //track select function for onended and manual selecting tracks
         var trackSelect = function (track) {
 
+            // track not always set
+            if (!track) {
+                return;
+            }
+
             //get new src
             var src = track.getAttribute('data-src');
             index = parseInt(track.getAttribute('data-index')) || index;
