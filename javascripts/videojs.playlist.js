@@ -4,7 +4,6 @@
         //this.L="vjs_common_one";
 
 
-        console.log(this);
         var id = this.el().id;
 
         //console.log('begin playlist plugin with video id:'+id);
